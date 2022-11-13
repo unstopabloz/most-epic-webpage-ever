@@ -55,6 +55,7 @@ a {
 }
 .user-interact .message {
     font-size: 18px;
+    max-width: 600px;
     color: #E5E7EB;
 }
 .user-interact button {
@@ -66,8 +67,9 @@ a {
 }
 
 .company-logo {
-    padding: 100px 120px;
+    padding: 103px 133px;
     background-color: grey;
+    font-size: 10px;
     color: white;
     justify-content: center;
     align-items: center;
