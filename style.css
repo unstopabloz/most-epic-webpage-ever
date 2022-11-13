@@ -71,3 +71,22 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+}
+.container .box {
+    display: flex;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    padding: 80px;
+
+}
