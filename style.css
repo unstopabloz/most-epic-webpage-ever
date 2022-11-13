@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+.upper-menu {
+    display: flex;
+    margin: 10px 100px 10px 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upper-menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
