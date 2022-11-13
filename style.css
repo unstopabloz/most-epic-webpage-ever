@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif, Arial;
 }
 a {
     text-decoration: none;
@@ -82,11 +83,36 @@ a {
 }
 .container {
     display: flex;
+    justify-content: space-between;
+    gap: 90px;
 }
-.container .box {
+.boxes .title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    padding: 40px;
+}
+.container .group {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.container .group .shape{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
     border: 3px solid #3882F6;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 80px;
 
+}
+.container .group .text {
+    font-size: 18px;
+    color: #383838;
+    max-width: 186px;
+    text-align: center;
 }
