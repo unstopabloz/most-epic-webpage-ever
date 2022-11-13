@@ -21,23 +21,53 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+.upper-menu .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
 .upper-menu ul {
     list-style-type: none;
     display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
     gap: 15px;
 }
 
 .content {
     margin: 10px 100px 10px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 60px;
 }
 .user-interact {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 10px;
 }
+.user-interact .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.user-interact .message {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.user-interact button {
+    justify-content: left;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
 .company-logo {
-    padding: 100px;
+    padding: 100px 120px;
     background-color: grey;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
