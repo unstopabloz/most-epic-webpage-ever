@@ -90,7 +90,7 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: bolder;
-    padding: 40px;
+    padding: 41px;
 }
 .container .group {
     display: flex;
@@ -98,6 +98,8 @@ a {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
     
 }
 .container .group .shape{
@@ -116,3 +118,33 @@ a {
     max-width: 186px;
     text-align: center;
 }
+
+
+
+
+.quote {
+    max-height: 453px;
+    padding: 40px;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 82px 380px;
+}
+.quote .phrase {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: -100px;
+}
+.quote .author {
+    font-size: 18px;
+    font-weight: bolder;
+    
+}
+
