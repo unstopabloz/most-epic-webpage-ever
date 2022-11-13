@@ -123,7 +123,6 @@ a {
 
 
 .quote {
-    max-height: 453px;
     padding: 40px;
     background-color: #E5E7EB;
     align-items: center;
@@ -148,3 +147,45 @@ a {
     
 }
 
+
+
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    max-height: 453px;
+    padding: 100px;
+}
+
+.sign-up .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 230px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 100px;
+    width: 1000px;
+}
+.sign-up .container .user-interact {
+    display: flex;
+    padding-left: 10px;
+    color: white;
+    gap: 10px;
+}
+.sign-up .container .user-interact .title {
+    font-size: 20px;
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+.sign-up .container .user-interact .text {
+    font-size: 10px;
+}
+.sign-up .container button {
+    background-color: #3882F6;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+}
