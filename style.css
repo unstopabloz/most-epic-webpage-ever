@@ -2,10 +2,11 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
 a {
     text-decoration: none;
 }
+
+
 
 .header {
     display: flex;
@@ -20,9 +21,23 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-
 .upper-menu ul {
     list-style-type: none;
     display: flex;
     gap: 15px;
+}
+
+.content {
+    margin: 10px 100px 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-interact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.company-logo {
+    padding: 100px;
+    background-color: grey;
 }
